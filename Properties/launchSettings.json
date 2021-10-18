@@ -1,0 +1,31 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:25073",
+      "sslPort": 44320
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "ASPNETBoilerPlateTemplate": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "OIDC_AUTHORITY": "SET THE OIDC AUTHORITY URL HERE",
+        "CLIENT_ID":  "SET THE CLIENT ID FROM THE OIDC CLIENT HERE",
+        "CLIENT_SECRET": "SET THE CLIENT SECRET HERE (DON'T UPLOAD THIS TO GIT)"
+      }
+    }
+  }
+}

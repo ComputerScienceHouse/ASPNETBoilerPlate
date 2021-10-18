@@ -1,0 +1,9 @@
+CSH ASP.NET Boilerplate
+
+This is just like the CSH React Boilerplate, a template for quickly getting started with auth in asp.NET
+
+Information about the user can be accessed from any page through the User.Claims variable. This includes the name and username of whoever signed in.
+
+Each claim has a type (the username is "preferred_username") and a value. These claims can only be accessed on pages, they cannot be access in program.cs or startup.cs
+
+The specific information about the app (client secret, cliend id, and authoirity) all need to be passed in through enviroment variables (either in OKD or Properties/launchSettings.json)
